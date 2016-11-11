@@ -325,7 +325,13 @@ section {
 #about-us {
 
   background-image: url(../images/about-bg.jpg);
-  padding: 60px 0;
+ 
+}
+
+#about-us .filter{
+
+  background-color : rgba(21,190,206, 0.8);
+
 }
 
 #about-us h2 {
@@ -852,7 +858,8 @@ section {
 **************************/
 
 #contact {
-  padding-top: 45px;
+  
+  padding-top: 0;
   padding-bottom: 0;
 }
 
@@ -862,7 +869,12 @@ section {
 
 #contact-us {
   background-image:url(../images/contact-bg.jpg);
-  padding-bottom: 90px; 
+}
+
+#contact-us .filter{
+  background-color: rgba(50,50,50, 0.5);
+    padding-bottom: 90px; 
+
 }
 
 #contact-us .heading {
